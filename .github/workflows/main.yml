@@ -40,13 +40,13 @@ jobs:
                 +sdfat                   \
                 +ntfs                    \
                 +morosound               \
-                +ondemand
-                +noswap
-                +maple
-                +noksm
-                +noaudit
-                +nodebug
-                +bfq
+                +ondemand               \
+                +noswap               \
+                +maple               \
+                +noksm               \
+                +noaudit               \
+                +nodebug               \
+                +bfq               \
                 +boeffla_wl_blocker
     - name: Show information about build
       run: cat build.info
