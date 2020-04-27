@@ -42,7 +42,7 @@ jobs:
                 +morosound               \
                 +sched_ondemand               \
                 +noswap               \
-                +nozram
+                +nozram               \
                 +maple               \
                 +noksm               \
                 +noaudit               \
