@@ -40,8 +40,9 @@ jobs:
                 +sdfat                   \
                 +ntfs                    \
                 +morosound               \
-                +ondemand               \
+                +sched_ondemand               \
                 +noswap               \
+                +nozram
                 +maple               \
                 +noksm               \
                 +noaudit               \
