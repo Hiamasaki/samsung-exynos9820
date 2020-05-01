@@ -49,6 +49,7 @@ jobs:
                 +nodebug               \
                 +fake_config        \
                 +bfq               \
+                os_patch_level=2020-04    \
                 +boeffla_wl_blocker
     - name: Show information about build
       run: cat build.info
