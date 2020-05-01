@@ -35,18 +35,19 @@ jobs:
                 +magisk                  \
                 +nohardening             \
                 +ttl                     \
-                +wireguard               \
                 +cifs                    \
                 +sdfat                   \
                 +ntfs                    \
                 +morosound               \
                 +sched_ondemand               \
+                +sched_userspace               \
                 +noswap               \
                 +nozram               \
                 +maple               \
                 +noksm               \
                 +noaudit               \
                 +nodebug               \
+                +fake_config        \
                 +bfq               \
                 +boeffla_wl_blocker
     - name: Show information about build
